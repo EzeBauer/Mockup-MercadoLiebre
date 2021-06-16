@@ -24,6 +24,7 @@ h2 {
 .buscar form input[type="text"] {
   display: inline-block;
   width: 50vw;
+  font-size: larger;
 }
 
 .encabezado .menu1,

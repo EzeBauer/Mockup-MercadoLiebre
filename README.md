@@ -4,7 +4,7 @@ Este trabajo contiene:
 <ul>
 <li>Archivo home.html con el diagrama de mercado Liebre</li>
 <li>Tres Hojas de estilo:
-  <ol>
+  <ol start=1>
   <li> Hoja linkeada Style</li>
   <li> Hoja "General" de estilos </li>
   <li> Estilos particulares aplicados al "home"</li>

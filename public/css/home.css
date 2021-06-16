@@ -1,0 +1,129 @@
+/*------HEADER--------*/
+header {
+  background-color: var(--color-amarillo);
+}
+h2 {
+  font-size: 24px;
+}
+
+.encabezado img {
+  width: 40vw;
+  margin: 40px 40px 25px 40px;
+}
+.encabezado .subtitulo {
+  margin: 25px 70px;
+}
+.menu2 a {
+  margin-right: 5px;
+}
+.buscar form {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.buscar form input[type="text"] {
+  display: inline-block;
+  width: 50vw;
+}
+
+.encabezado .menu1,
+.menu2 {
+  margin-bottom: 30px;
+}
+
+.conten-burger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.encabezado .burger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  width: 10vw;
+  height: 7vh;
+  background-color: var(--color-azul);
+  border-radius: 5px;
+}
+.fa-bars {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.banner {
+ /*  display: none; */
+  width: 100vw;
+  height: 20vh;
+  background-image: url("/images/img-home-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+/*-------------MAIN---------------*/
+
+main {
+  background-color: var(--color-grisClaro);
+}
+
+main h2 {
+  color: var(--color-grisOscuro);
+  text-align: center;
+  padding: 25px;
+}
+article img {
+  width: 100vw;
+  height: 60vh;
+  margin: 0 0 0 5px;
+}
+
+main article .descripcion {
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  width: 100vw;
+  margin: 0 0 15px 5px;/*Margen inferior de 15 px*/
+}
+section article span,
+h3 {
+  font-size: 16px;
+  padding: 15px 20px;
+}
+section article p {
+  font-size: 18px;
+  padding: 15px 20px;
+  color: var(--color-grisOscuro);
+}
+article span {
+  color: var(--color-verde);
+}
+
+
+/*---------FOOTER--------*/
+
+footer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px 20px 20px;
+  margin-top: 30px;
+  border-top: solid 5px red;
+}
+
+footer article {
+  padding: 0 70px 50px;
+  text-align: center;
+}
+
+footer article i {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: var(--color-azul);
+}
+
+footer .copyright {
+  text-align: left;
+  padding-right: 30%;
+}
